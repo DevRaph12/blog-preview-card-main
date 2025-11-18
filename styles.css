@@ -18,9 +18,10 @@ flex-direction: column;
 .card {
     background-color: hsl(0, 0%, 100%);
     max-width: 240px;
-    max-height: 350px;
+    max-height: 340px;
     padding: 1rem;
     border: 1px solid hsl(0, 0%, 7%);
+    font-family: Figtree, Inter;
 
 }
 
@@ -38,4 +39,13 @@ img{
 
 .card, img{
     border-radius: 5%;
+}
+
+p{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+h1, .button{
+    font-weight: 800;
 }
