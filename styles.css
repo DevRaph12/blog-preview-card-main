@@ -1,16 +1,15 @@
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
 
 
-body, html{
-margin: 0;
-padding: 0;
-height: 100vh;
-background-color: hsl(47, 88%, 63%);
-box-sizing: border-box;
-font-size: 15px;
-display: flex;
-flex-direction: column;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    box-sizing: border-box;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,34 +17,86 @@ flex-direction: column;
 .card {
     background-color: hsl(0, 0%, 100%);
     max-width: 240px;
-    max-height: 340px;
-    padding: 1rem;
+    max-height: 400px;
+    padding: 1.1rem;
     border: 1px solid hsl(0, 0%, 7%);
     font-family: Figtree, Inter;
+    box-shadow: 6px 6px black;
+    margin-top: 7.5rem;
+    
 
 }
 
-img{
+img {
     width: 100%;
+    
 }
 
-.button{
+.button {
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
     color: hsl(0, 0%, 7%);
-    padding: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 8%;
+    margin-bottom: 0;
+
+}
+
+.card,
+img {
     border-radius: 5%;
 }
 
-.card, img{
-    border-radius: 5%;
-}
-
-p{
+p {
     font-size: 0.7rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+h1,
+.button {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+.publish-date {
+    padding-top: -3;
+    color: hsl(0, 0%, 7%);
     font-weight: 500;
 }
 
-h1, .button{
+.author-name{
     font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-left: 0.6rem;
 }
+
+.avatar-image{
+    max-width: 23px;
+    max-height: 23px;
+}
+
+.author-info{
+    display: flex;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
